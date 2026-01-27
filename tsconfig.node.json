@@ -20,7 +20,7 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-    "types": ["vite.config.ts"]
+    "types": ["node"]
   },
   "include": ["vite.config.ts"]
 }
