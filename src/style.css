@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --text-color: #000000;
+}
+
+@layer components {
+  .menu-item {
+    @apply block rounded-lg px-4 py-3 text-gray-700;
+  }
+  .menu-active {
+    @apply bg-indigo-500 text-white shadow;
+  }
+}
+
+body {
+  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+p {
+  color: var(--text-color);
+}
+
+a {
+  font-size: 14px;
+}
