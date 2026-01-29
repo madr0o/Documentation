@@ -115,6 +115,15 @@ const closeSidebar = () => {
                 FAQ
               </div>
             </router-link>
+
+            <a
+              href="https://youtu.be/wyeIMOCt6mk?si=U5HGs8a-ms1LVxNM"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cursor-pointer ml-4"
+            >
+              Youtube
+            </a>
           </nav>
 
         </aside>
