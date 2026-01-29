@@ -310,7 +310,7 @@
                 <div class="flex justify-center">
                     <img :src="media1" alt="img" class="w-200">
                 </div>
-                <h3 class="font-medium border-b-1 border-gray-100">4. Media</h3>
+                <h3 id="media" class="font-medium border-b-1 border-gray-100">4. Media</h3>
                 <p>
                     Pada tahap Images & Media, pengguna mengatur tampilan visual produk yang akan ditampilkan sebagai preview item di website. Media ini berperan penting untuk membantu pelanggan memahami bentuk, detail, dan kualitas produk sebelum melakukan pembelian.
                 </p>
