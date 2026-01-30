@@ -1,5 +1,6 @@
 <script setup>
-    import { PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline'
+    import ScrollToTop from '@/components/ScrollToTop.vue';
+import { PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline'
 </script>
 
 <template>
@@ -74,4 +75,5 @@
             proses dengan menekan tombol <span class="px-2 py-1 bg-gray-100 rounded-sm text-xs border-1 border-gray-400">Cancel</span>.
         </p>
     </div>
+    <ScrollToTop />
 </template>

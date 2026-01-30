@@ -1,5 +1,6 @@
 <script setup>
-    import { PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline'
+    import ScrollToTop from '@/components/ScrollToTop.vue';
+import { PencilSquareIcon, TrashIcon } from '@heroicons/vue/24/outline'
 </script>
 
 <template>
@@ -39,4 +40,5 @@
             dihapus dari sistem. Jika pengguna membatalkan, maka tidak ada perubahan yang dilakukan pada data portfolio.
         </p>
     </div>
+    <ScrollToTop />
 </template>

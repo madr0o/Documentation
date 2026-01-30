@@ -5,6 +5,7 @@
     import voucherInfo from '@/assets/voucher-4.png'
     import usageLimit from '@/assets/voucher-5.png'
     import validPeriod from '@/assets/voucher-6.png'
+import ScrollToTop from '@/components/ScrollToTop.vue'
     import { EyeIcon } from '@heroicons/vue/24/outline'
 </script>
 
@@ -90,4 +91,5 @@
             </aside>
         </div>
     </div>
+    <ScrollToTop />
 </template>

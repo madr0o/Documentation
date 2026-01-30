@@ -2,6 +2,7 @@
     import { EyeIcon } from '@heroicons/vue/24/outline'
     import order1 from '@/assets/order-1.png'
     import order2 from '@/assets/order-2.png'
+import ScrollToTop from '@/components/ScrollToTop.vue';
 </script>
 
 <template>
@@ -53,4 +54,5 @@
             satu tampilan.
         </p>
     </div>
+    <ScrollToTop />
 </template>

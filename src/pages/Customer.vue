@@ -1,5 +1,6 @@
 <script setup>
     import { EyeIcon } from '@heroicons/vue/24/outline'
+    import ScrollToTop from '@/components/ScrollToTop.vue';
 </script>
 
 <template>
@@ -22,4 +23,5 @@
             <li>Alamat pengiriman (shipping address) dan alamat penagihan (billing address).</li>
         </ul>
     </div>
+    <ScrollToTop />
 </template>

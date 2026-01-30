@@ -1,3 +1,17 @@
+<script setup>
+    import dateFilter from '@/assets/dashboard-1.png'
+    import summaryCards from '@/assets/dashboard-2.png'
+    import earningReports from '@/assets/dashboard-3.png'
+    import revenueGrowth from '@/assets/dashboard-4.png'
+    import popularProduct from '@/assets/dashboard-5.png'
+    import paymentMethod from '@/assets/dashboard-6.png'
+    import voucherUsage from '@/assets/dashboard-7.png'
+    import lowestProduct from '@/assets/dashboard-8.png'
+    import totalSpent from '@/assets/dashboard-9.png'
+    import newActivity from '@/assets/dashboard-10.png'
+    import ScrollToTop from '@/components/ScrollToTop.vue';
+</script>
+
 <template>
     <div class="flex justify-between pb-10">
         <div class="w-4/5 flex flex-col justify-start gap-6">
@@ -208,17 +222,5 @@
             </aside>
         </div>
     </div>
+    <ScrollToTop />
 </template>
-
-<script setup>
-    import dateFilter from '@/assets/dashboard-1.png'
-    import summaryCards from '@/assets/dashboard-2.png'
-    import earningReports from '@/assets/dashboard-3.png'
-    import revenueGrowth from '@/assets/dashboard-4.png'
-    import popularProduct from '@/assets/dashboard-5.png'
-    import paymentMethod from '@/assets/dashboard-6.png'
-    import voucherUsage from '@/assets/dashboard-7.png'
-    import lowestProduct from '@/assets/dashboard-8.png'
-    import totalSpent from '@/assets/dashboard-9.png'
-    import newActivity from '@/assets/dashboard-10.png'
-</script>

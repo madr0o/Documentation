@@ -68,6 +68,12 @@ const closeSidebar = () => {
               </div>
             </router-link>
 
+            <router-link to="/video-tutorial" v-slot="{ isActive }">
+              <div class="menu-item" :class="isActive ? 'menu-active' : ''" @click="closeSidebar">
+                Video Tutorial
+              </div>
+            </router-link>
+
             <router-link to="/dashboard" v-slot="{ isActive }">
               <div class="menu-item" :class="isActive ? 'menu-active' : ''" @click="closeSidebar">
                 Dashboard
@@ -115,15 +121,6 @@ const closeSidebar = () => {
                 FAQ
               </div>
             </router-link>
-
-            <a
-              href="https://youtu.be/wyeIMOCt6mk?si=U5HGs8a-ms1LVxNM"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="cursor-pointer ml-4"
-            >
-              Youtube
-            </a>
           </nav>
 
         </aside>

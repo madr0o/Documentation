@@ -24,6 +24,7 @@
     import media1 from '@/assets/product-22.png'
     import media2 from '@/assets/product-23.png'
     import ao1 from '@/assets/product-24.png'
+import ScrollToTop from '@/components/ScrollToTop.vue'
 </script>
 
 <template>
@@ -461,4 +462,5 @@
             </aside>
         </div>
     </div>
+    <ScrollToTop />
 </template>

@@ -9,6 +9,11 @@ const router = createRouter({
       component: () => import('@pages/Index.vue')
     },
     {
+      path: '/video-tutorial',
+      name: 'video',
+      component: () => import('@pages/Video.vue')
+    },
+    {
       path: '/dashboard',
       name: 'dashboard',
       component: () => import('@pages/Dashboard.vue')
@@ -47,11 +52,6 @@ const router = createRouter({
       path: '/faq',
       name: 'faq',
       component: () => import('@pages/Faq.vue')
-    },
-    {
-      path: '/user-management',
-      name: 'user-management',
-      component: () => import('@pages/UserManagement.vue')
     },
   ]
 })

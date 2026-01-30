@@ -1,3 +1,11 @@
+<script setup>
+    import sidebarImg from '@/assets/sidebar.png'
+    import topbarImg from '@/assets/topbar.png'
+    import icons from '@/assets/icons.png'
+
+    import ScrollToTop from '@/components/ScrollToTop.vue';
+</script>
+
 <template>
     <div class="flex-col flex pb-10 justify-start gap-6">
         <div class="w-full border-b-1 border-gray-200">
@@ -82,10 +90,5 @@
             </div>
         </div>
     </div>
+    <ScrollToTop />
 </template>
-
-<script setup>
-    import sidebarImg from '@/assets/sidebar.png'
-    import topbarImg from '@/assets/topbar.png'
-    import icons from '@/assets/icons.png'
-</script>
