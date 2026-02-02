@@ -12,8 +12,8 @@
   <header
     class="
       fixed top-0 left-0 right-0 z-50
-      h-16 flex items-center justify-start
-      px-21 border-b border-gray-200 bg-white
+      h-16 flex items-center justify-start px-6
+      md:px-21 border-b border-gray-200 bg-white
     "
   >
     <div class="flex items-center justify-start gap-4">

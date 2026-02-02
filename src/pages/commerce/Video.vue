@@ -3,7 +3,7 @@ import HeaderSecond from '@/components/HeaderSecond.vue';
 </script>
 
 <template>
-  <div class="flex flex-col pt-18 px-21">
+  <div class="flex flex-col pt-18 px-6 md:px-21">
     <HeaderSecond />
     <div class="flex flex-col pb-10 gap-6">
       <div class="w-full border-b border-gray-200 pb-2">
