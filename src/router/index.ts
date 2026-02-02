@@ -5,53 +5,103 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'index',
       component: () => import('@pages/Index.vue')
     },
     {
-      path: '/video-tutorial',
-      name: 'video',
-      component: () => import('@pages/Video.vue')
+      path: '/commerce',
+      name: 'commerce',
+      component: () => import('@pages/commerce/Index.vue')
     },
     {
-      path: '/dashboard',
-      name: 'dashboard',
-      component: () => import('@pages/Dashboard.vue')
+      path: '/commerce/video-tutorial',
+      name: 'commerce-video',
+      component: () => import('@pages/commerce/Video.vue')
     },
     {
-      path: '/product',
-      name: 'prodcut',
-      component: () => import('@pages/Product.vue')
+      path: '/commerce/guidline-book/introduction',
+      name: 'commerce-intro',
+      component: () => import('@pages/commerce/Introduction.vue')
     },
     {
-      path: '/portfolio',
-      name: 'portfolio',
-      component: () => import('@pages/Portfolio.vue')
+      path: '/commerce/guidline-book/dashboard',
+      name: 'commerce-dashboard',
+      component: () => import('@pages/commerce/Dashboard.vue')
     },
     {
-      path: '/order',
-      name: 'order',
-      component: () => import('@pages/Order.vue')
+      path: '/commerce/guidline-book/product',
+      name: 'commerce-prodcut',
+      component: () => import('@pages/commerce/Product.vue')
     },
     {
-      path: '/customer',
-      name: 'customer',
-      component: () => import('@pages/Customer.vue')
+      path: '/commerce/guidline-book/portfolio',
+      name: 'commerce-portfolio',
+      component: () => import('@pages/commerce/Portfolio.vue')
     },
     {
-      path: '/voucher',
-      name: 'voucher',
-      component: () => import('@pages/Voucher.vue')
+      path: '/commerce/guidline-book/order',
+      name: 'commerce-order',
+      component: () => import('@pages/commerce/Order.vue')
     },
     {
-      path: '/setting',
-      name: 'setting',
-      component: () => import('@pages/Setting.vue')
+      path: '/commerce/guidline-book/customer',
+      name: 'commerce-customer',
+      component: () => import('@pages/commerce/Customer.vue')
     },
     {
-      path: '/faq',
-      name: 'faq',
-      component: () => import('@pages/Faq.vue')
+      path: '/commerce/guidline-book/voucher',
+      name: 'commerce-voucher',
+      component: () => import('@pages/commerce/Voucher.vue')
+    },
+    {
+      path: '/commerce/guidline-book/setting',
+      name: 'commerce-setting',
+      component: () => import('@pages/commerce/Setting.vue')
+    },
+    {
+      path: '/commerce/guidline-book/faq',
+      name: 'commerce-faq',
+      component: () => import('@pages/commerce/Faq.vue')
+    },
+    {
+      path: '/compro',
+      name: 'compro',
+      component: () => import('@pages/compro/Index.vue')
+    },
+    {
+      path: '/compro/guidline-book/introduction',
+      name: 'compro-intro',
+      component: () => import('@pages/compro/Introduction.vue')
+    },
+    {
+      path: '/compro/guidline-book/dashboard',
+      name: 'compro-dashboard',
+      component: () => import('@pages/compro/Dashboard.vue')
+    },
+    {
+      path: '/compro/guidline-book/inbox',
+      name: 'compro-inbox',
+      component: () => import('@pages/compro/Inbox.vue')
+    },
+    {
+      path: '/compro/guidline-book/portfolio',
+      name: 'compro-portfolio',
+      component: () => import('@pages/compro/Portfolio.vue')
+    },
+    {
+      path: '/compro/guidline-book/team',
+      name: 'compro-team',
+      component: () => import('@pages/compro/Team.vue')
+    },
+    {
+      path: '/compro/guidline-book/education-dev',
+      name: 'compro-edu',
+      component: () => import('@pages/compro/EducationDev.vue')
+    },
+    {
+      path: '/compro/video-tutorial',
+      name: 'compro-intro',
+      component: () => import('@pages/compro/Video.vue')
     },
   ]
 })

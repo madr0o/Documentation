@@ -1,11 +1,11 @@
-<script>
+<script setup>
 
 </script>
 
 <template>
   <div class="flex flex-col pb-10 gap-6">
     <div class="w-full border-b border-gray-200 pb-2">
-      <h1 class="text-3xl font-medium">Video Tutorial</h1>
+      <h1 class="text-3xl font-medium">Video Tutorial Compro</h1>
     </div>
 
     <div
@@ -13,7 +13,7 @@
       style="aspect-ratio: 16 / 9;"
     >
       <iframe
-        src="https://www.youtube-nocookie.com/embed/wyeIMOCt6mk"
+        src=""
         title="Video Tutorial"
         class="w-full h-full"
         frameborder="0"
