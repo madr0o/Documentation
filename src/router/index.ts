@@ -100,7 +100,7 @@ const router = createRouter({
     },
     {
       path: '/compro/video-tutorial',
-      name: 'compro-intro',
+      name: 'compro-video',
       component: () => import('@pages/compro/Video.vue')
     },
   ]

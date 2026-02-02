@@ -18,8 +18,9 @@
   >
     <div class="flex items-center justify-start gap-4">
       <button
+        type="button"
         @click="goBack"
-        class="flex items-center gap-1 text-[#19468E] hover:text-[#2C5BA3]"
+        class="flex items-center gap-1 text-[#19468E] hover:text-[#2C5BA3] cursor-pointer"
       >
         < Back
       </button>

@@ -10,7 +10,7 @@ import HeaderSecond from '@/components/HeaderSecond.vue';
             <div class="flex flex-col md:flex-row justify-between gap-4">
                 <div>
                     <router-link
-                        to="/compro/guidline-book/introduction"
+                        to="/compro/guidline-book/dashboard"
                         class="block"
                     >
                         <div

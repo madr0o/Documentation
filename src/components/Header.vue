@@ -35,7 +35,7 @@
     </div>
 
     <!-- RIGHT -->
-    <div
+    <!-- <div
       class="
         hidden sm:flex items-center gap-2
         w-80 px-3 py-2
@@ -49,6 +49,6 @@
         placeholder="Search"
         class="w-full border-0 outline-none text-gray-700 placeholder:text-gray-400"
       />
-    </div>
+    </div> -->
   </header>
 </template>

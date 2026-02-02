@@ -30,7 +30,7 @@
     <nav class="p-4 space-y-2">
       <p class="text-xs font-semibold text-gray-400 tracking-widest">GETTING STARTED</p>
 
-      <router-link to="/commerce/guidline-book/introduction" v-slot="{ isExactActive }">
+      <router-link to="/compro/guidline-book/introduction" v-slot="{ isExactActive }">
         <div
           class="block rounded-lg px-4 py-3 transition"
           :class="isExactActive
@@ -42,7 +42,7 @@
         </div>
       </router-link>
 
-      <router-link to="/commerce/guidline-book/dashboard" v-slot="{ isActive }">
+      <router-link to="/compro/guidline-book/dashboard" v-slot="{ isActive }">
         <div
           class="block rounded-lg px-4 py-3 transition"
           :class="isActive
@@ -54,7 +54,7 @@
         </div>
       </router-link>
 
-      <router-link to="/commerce/guidline-book/product" v-slot="{ isActive }">
+      <router-link to="/compro/guidline-book/inbox" v-slot="{ isActive }">
         <div
           class="block rounded-lg px-4 py-3 transition"
           :class="isActive
@@ -66,7 +66,7 @@
         </div>
       </router-link>
 
-      <router-link to="/commerce/guidline-book/portfolio" v-slot="{ isActive }">
+      <router-link to="/compro/guidline-book/portfolio" v-slot="{ isActive }">
         <div
           class="block rounded-lg px-4 py-3 transition"
           :class="isActive
@@ -78,7 +78,7 @@
         </div>
       </router-link>
 
-      <router-link to="/commerce/guidline-book/order" v-slot="{ isActive }">
+      <router-link to="/compro/guidline-book/team" v-slot="{ isActive }">
         <div
           class="block rounded-lg px-4 py-3 transition"
           :class="isActive
@@ -90,7 +90,7 @@
         </div>
       </router-link>
 
-      <router-link to="/commerce/guidline-book/customer" v-slot="{ isActive }">
+      <router-link to="/compro/guidline-book/education-dev" v-slot="{ isActive }">
         <div
           class="block rounded-lg px-4 py-3 transition"
           :class="isActive
